@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Plus Waste icon">
+  <defs>
+    <linearGradient id="gI1" x1="0" x2="1">
+      <stop offset="0" stop-color="#34D399"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="gI2" x1="0" x2="1">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="128" height="128" rx="20" fill="#F8FEF9"/>
+  <!-- circular recycle arrows simplified -->
+  <g transform="translate(18,18)" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" fill="none">
+    <path d="M46 6 L28 18 L40 30" stroke="url(#gI1)"/>
+    <path d="M6 46 L18 28 L30 40" stroke="url(#gI1)"/>
+    <path d="M86 36 L68 48 L80 60" stroke="url(#gI1)"/>
+  </g>
+
+  <!-- plus at center -->
+  <rect x="54" y="50" width="20" height="6" rx="3" fill="url(#gI2)"/>
+  <rect x="64" y="40" width="6" height="20" rx="3" fill="url(#gI2)"/>
+</svg>
+

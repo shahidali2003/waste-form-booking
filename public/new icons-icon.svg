@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Plus Waste Icon">
+  <defs>
+    <linearGradient id="grad-green" x1="0" x2="1">
+      <stop offset="0" stop-color="#16a34a"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="grad-blue" x1="0" x2="1">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="64" cy="64" r="60" fill="#ecfdf5"/>
+  <path d="M64 16 L48 40 L60 40 L44 64 L60 64 L48 88 L64 112" fill="none" stroke="url(#grad-green)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <rect x="56" y="56" width="16" height="4" rx="2" fill="url(#grad-blue)"/>
+  <rect x="62" y="50" width="4" height="16" rx="2" fill="url(#grad-blue)"/>
+</svg>
