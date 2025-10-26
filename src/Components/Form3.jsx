@@ -50,6 +50,7 @@ export default function Form3({
       name: formData.contactName || "",
       contactNumber: formData.phone || "",
       notificationType: formData.methods.join(", ") || "",
+      email: formData.email || "", // ✅ added from Form1
     };
 
     try {
@@ -61,7 +62,7 @@ export default function Form3({
 
       const response = await fetch(
         // ⚠️ Paste your NEW Apps Script URL here
-        "https://script.google.com/macros/s/AKfycbwf678WxxwIjAMPai0CocGsxSYNmq2MwVRHP-AOOE-JZHrHmKh1JFI_tZZeOWNMV6OyEg/exec",
+        "https://script.google.com/macros/s/AKfycbwjfu4Y9N1C3lDBnz1Y2q4VgTyccAYDGcC95LL3r9Wi4b5gn3XYBMgobB9-YvYz6_jgAA/exec",
         {
           method: "POST",
           headers: {
